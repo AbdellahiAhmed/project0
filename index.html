@@ -2,10 +2,12 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
         <style>
             body {
-                display: flex;
-                justify-content: space-between;
+                align-items: center;
+                justify-content: center;
             }
 
             a {
@@ -20,13 +22,20 @@
         </style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-        <div class="links">
-            <a href="google_image_search.html">Image Search</a>
-            <a href="google_advanced_search.html">Advanced Search</a>
-        </div>
+        <center>
+            <h1>Google</h1>
+            <section>
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q">
+                    <input type="submit" value="Google Search">
+                    <a class="material-symbols-outlined" href="google_image_search.html">
+                        image_search
+                    </a>
+                    <a class="material-symbols-outlined" href="google_advanced_search.html">
+                        search
+                    </a>
+                </form>
+            </section>
+        </center>
     </body>
 </html>
