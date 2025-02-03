@@ -2,11 +2,31 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            a {
+                margin-right: 10px;
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: blue;
+            }
+        </style>
     </head>
     <body>
         <form action="https://www.google.com/search">
             <input type="text" name="q">
             <input type="submit" value="Google Search">
         </form>
+        <div class="links">
+            <a href="google_image_search.html">Image Search</a>
+            <a href="google_advanced_search.html">Advanced Search</a>
+        </div>
     </body>
 </html>
