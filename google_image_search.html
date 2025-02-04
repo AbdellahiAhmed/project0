@@ -2,8 +2,27 @@
 <html lang="en">
     <head>
         <title>Image Search</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="index.html">Home</a>
+        <center>
+            <h1>Image Search</h1>
+            <form method="get" action="http://images.google.com/images">
+                <table>
+                    <tr>
+                        <td><input type="text" name="q" id="search_input"></td>
+                        <td>
+                            <a class="material-symbols-outlined" href="index.html">
+                                home
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Google Search" id="submit_input"></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
     </body>
 </html>
