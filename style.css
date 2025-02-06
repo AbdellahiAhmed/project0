@@ -1,0 +1,21 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+#search_input {
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

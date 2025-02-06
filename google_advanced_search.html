@@ -3,34 +3,48 @@
     <head>
         <title>Advanced Search</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-        
+        <style>
+            h1{
+                color: red;
+            }
+
+            button {
+                color: white;
+                background-color: blue;
+                border: none;
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
-        <div class="links" style="display: flex; align-items: center;">
-            <a class="material-symbols-outlined" href="index.html">
-                home
-            </a>
-            <span>Home</span>
-        </div>
-        <h1>Advanced Search</h1>
-        <h3>Find Pages With ..</h3>
-        <table>
-            <tr>
-                <td>all these words:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>this exact word or phrase:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>any of these words:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>none of these words:</td>
-                <td><input type="text"></td>
-            </tr>
-        </table>
+        <form action="https://www.google.com/search?as_q=q&as_epq=r&as_oq=s&as_eq=t">
+            <div class="links" style="display: flex; align-items: center;">
+                <a class="material-symbols-outlined" href="index.html">
+                    home
+                </a>
+                <span>Home</span>
+            </div>
+            <h1>Advanced Search</h1>
+            <h3>Find Pages With ..</h3>
+            <table>
+                <tr>
+                    <td>all these words:</td>
+                    <td><input type="text" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td>this exact word or phrase:</td>
+                    <td><input type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td>any of these words:</td>
+                    <td><input type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td>none of these words:</td>
+                    <td><input type="text" name="as_eq"></td>
+                </tr>
+            </table>
+            <br><input type="submit" value="Advanced Search">
+        </form>
     </body>
 </html>
